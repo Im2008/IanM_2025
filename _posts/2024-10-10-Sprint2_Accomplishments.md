@@ -7,6 +7,50 @@ toc: true
 comments: true
 ---
 
+# What I learned from MY LESSON:
+
+# Integers:
+Integers is when a variable equals a number, so if you want to have conditions, then it'll work pretty well for integers:
+
+x = 1
+
+y = 2
+
+if x < y :
+    print("hi")
+else :
+    print("NO")
+
+
+
+# What I learned:
+-How Pseudocode works, and that it serves mostly as a layout of how the rest of the code will function.
+
+-The difference between Python and Javascript code, but the similarities as well.
+
+-How to use conditionals and when to use them in context. Specifically you should use them if you want to set a condition for a variable. For example:
+
+x=1
+
+y=2
+
+if x < y :
+    print("Yes")
+else :
+    print("no")
+
+-More information on lists, and how they are essential for organizing stuff. For example:
+
+list = ["Bake: into the oven", "Serve: Finished"]
+print(list)
+
+-How strings are essential for defining something and how it can help with conditionals as well. For example:
+
+hello = "hi"
+print(hello)
+
+<img src="{{site.baseurl}}/images/commits.png" alt="COMMITS" style="width: 100%; max-width: 300px; height: auto; margin-left: 10px;">
+ 
 # Accomplishments:
 ---------------------------------------------------
 + Changed and Adjusted hacks based on lessons
