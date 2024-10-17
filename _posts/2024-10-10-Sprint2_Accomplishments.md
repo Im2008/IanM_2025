@@ -84,7 +84,7 @@ I'm going to prepare better for the CB and the PBL by better understanding lists
 ------------------------------------------------------
 
 # Blog - in association with Big Ideas and Teaching, something that shows how you will be prepared for CB and PBL (ie organized accomplishments)
-In our Lesson 3.2 Data Abstraction, we split up different data types into different sections in our lesson to organize each data type with its python and javascript version. Through this lesson, i've learned how to set up jupyter notebooks and direct them to a navigation page along with learning where the python and javascript environments are located. I assisted in teaching about (3.2.5) Tuples, (3.2.6) Dictionaries, and how they coorilated similarly to (3.2.4) lists, but serve different purposes whenever you print or log them. Along with this, I adjusted the Javascript hw/popcorn hack to make it more specific to the lesson, and was gonna put a lesson help attached to it with other popcorn hacks but it didn't go through. From these mechanics i've learned, it'll help me be prepared for the CB and PBL by utilizing how each data type works and acknowledging different file directories.
+In our Lesson 3.2 Data Abstraction, we split up different data types into different sections in our lesson to organize each data type with its python and javascript version. Through this lesson, i've learned how to set up jupyter notebooks and direct them to a nav page along with python and javascript environments. I assisted in teaching about (3.2.5) Tuples, (3.2.6) Dictionaries, and how they coorilated similarly to (3.2.4) lists, but serve different purposes whenever you print or log them. Along with this, I adjusted the Javascript hw/popcorn hack to make it more specific to the lesson and not too difficult. From these mechanics i've learned, it'll help me be prepared for the CB and PBL by utilizing how each data type works and acknowledging different file directories.
 
 # Memory - something that will helps Teacher or others recall your individual presentation and contribution (ie a highlight)
 During our lesson, we used a lot of python and javascript examples, and compared them similary to daily life. For example, for a list its similar to making a list in real life of stuff you want to plot down, and it is similarly kept stored inside something as well. We also added a gimkit that gave an overall summary of 3.2 data abstractions and the different types it had.
@@ -94,7 +94,7 @@ During our lesson, we used a lot of python and javascript examples, and compared
 The One lesson that stood out the most to me was the 3.3 & 3.5 about Mathmatical Expressions & Booleans as the flowcharts and real life example comparisions helped get a grasp of how code could relate to everyday tasks in the real world. Examples such as the specific steps of getting up in the morning in comparison with the desired outcome of an Algorithm helped create a picture of how the code works in the steps of a real world example.
 
 # Beyond Perfunctory - something that shows me that this Sprint on Big Ideas is distinctly yours (ie personal growth or accomplishment)
-Starting off, I had a difficult time figuring out how to set up a repository on vscode along with everything being disorganized and out of place. As time went on, I learned how to organize my files into different folders and be able to utilize it for others to understand, especially my teammates. Although I messed up a couple of times in Sprint 2, especially with creating the group repositories, it helped me get a better understanding of how to polish code, work effectively, and process commits that'll help contribute to the team.
+Starting off, I had a difficult time figuring out how to set up a repository on vscode along with everything being disorganized and out of place. As time went on, I learned how to organize my files into different folders and be able to utilize it for others to understand, especially my teammates. Although I messed up a couple of times in Sprint 2, it helped me get a better understanding of how to polish code, work effectively, and process commits that'll help contribute to the team.
 
 
 ### My commits:
@@ -109,3 +109,13 @@ Starting off, I had a difficult time figuring out how to set up a repository on 
 
 ### Homework Hacks:
 <a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-1">3.1 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-2">3.2 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-3">3.3 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-4">3.4 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-5">3.5 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-6">3.6 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-7">3.7 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-8">3.8 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-9">3.9 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-10">3.10 hack</a>
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-10B">3.10b hack</a>
