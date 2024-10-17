@@ -41,16 +41,7 @@ None is not really as important, but it still serves its purpose. If you want a 
 
 -The difference between Python and Javascript code, but the similarities as well.
 
--How to use conditionals and when to use them in context. Specifically you should use them if you want to set a condition for a variable. For example:
-
-x=1
-
-y=2
-
-if x < y :
-    print("Yes")
-else :
-    print("no")
+-How to use conditionals and when to use them in context. Specifically you should use them if you want to set a condition for a variable. 
 
 -More information on lists, and how they are essential for organizing stuff. For example:
 
@@ -62,10 +53,8 @@ print(list)
 hello = "hi"
 print(hello)
 
-# What group I learned the most
-The group that I learned the most was from 3.10 A and 3.10 B because they explained lists pretty well and when you should use them in terms of specifics. For example, you should use a list if you want to make your code more organized, and also if you want to append or remove certain indexes from the lists as they're very flexible unlike sets, dictionaries, or Tuples. They had specific homeworks that defined instances where you should and shouldn't use lists.
-
-<img src="{{site.baseurl}}/images/commits.png" alt="COMMITS" style="width: 100%; max-width: 300px; height: auto; margin-left: 10px;">
+# What group I learned the most:
+The group that I learned from the most was the group that presented lessons 3.3 and 3.5 about Mathmatical Expressions and Booleans. This was because they were more unique than other groups at explaining and comparing coding to real life examples, and utilized this to teach their lesson more fluently on a difficult topic that would normally be hard to explain. Along with this, the flowcharts really helped organize how code typically worked. For example, with Algorithmns, they did a good job comparing it to the "daily life of waking up in the morning" and how it corrilates to how algorithmns need specific tasks to make a list of steps inside the code.
  
 # Accomplishments:
 ---------------------------------------------------
@@ -106,3 +95,17 @@ The One lesson that stood out the most to me was the 3.3 & 3.5 about Mathmatical
 
 # Beyond Perfunctory - something that shows me that this Sprint on Big Ideas is distinctly yours (ie personal growth or accomplishment)
 Starting off, I had a difficult time figuring out how to set up a repository on vscode along with everything being disorganized and out of place. As time went on, I learned how to organize my files into different folders and be able to utilize it for others to understand, especially my teammates. Although I messed up a couple of times in Sprint 2, especially with creating the group repositories, it helped me get a better understanding of how to polish code, work effectively, and process commits that'll help contribute to the team.
+
+
+### My commits:
+<img src="{{site.baseurl}}/images/commits.png" alt="COMMITS" style="width: 100%; max-width: 300px; height: auto; margin-left: 10px;">
+<a href = "https://github.com/wendaobao/portfolio_20252/commits/main/?author=Im2008">Commits</a>
+
+### Group Repository:
+<a href = "https://github.com/wendaobao/portfolio_20252"> Group Repo </a>
+
+### 3.2 Data Abstraction Lesson:
+<a href = "https://nighthawkcoders.github.io/portfolio_2025/csp/big-idea/p4/3-2/">Lesson</a>
+
+### Homework Hacks:
+<a href = "{{site.baseurl}}/Lesson_Hacks/Hacks_3-1">3.1 hack</a>
