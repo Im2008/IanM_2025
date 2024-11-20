@@ -34,7 +34,7 @@ For 5.A skills, I misinterpreted some terms and as a result, made the 2 question
 # 5.B:
 For 5.B skills, I should've looked at the question carefully as some questions served different meanings and caused my answers to be way off of the actual outcome of the answer. (2/7)
 
-# 5.C (WEAKEST):
+# 5.C (WEAKEST SECTION):
 For 5.C skills, I could've taken my time on them yet again instead of trying to rush the questions overall. Instead of seeing the question as simple, I should look over it to make sure the question is what the question is asking, and seeing if the question could be completely different from the actual or not. This was byfar my weakest topic, as with the questions I didn't understand, I rushed them and completely skipped the fact at reading the question at all. Since these 3 questions were mostly about word problems, if I looked them over and actually took my time on them, i'd get a decent shot at getting at least one of them right. (0/3)
 
 # 5.D:
@@ -43,4 +43,7 @@ For 5.D skills, When I didn't know the question, I chose the longest answer whic
 # 5.E: 
 For 5.E skills, I should've reread the question as some questions were asking for copyright while others were asking about license which have different coorelations with each other. Instead of rushing through the question, i should've reread the question, looked at which answers should be incorrect, and correct it based of off what is expected. (1/4)
 
-TOTAL: 18/66
+# Overall:
+Overall I believe I was decently strong at understanding problems with code and what the issue was with them in regards to algorithms, booleans, or just number problems. Looking over the problem and actually re-reading them instead of putting an answer to rush it and move on would've made my understanding of the problem a lot more better, and made the other problems easier as it'll pull some concepts from one problem to another. This caused me to struggle a lot especially with the word problems, as they required more thinking and understanding of the topic, which needed to have more time spent on the topic.
+
+# TOTAL: 18/66
