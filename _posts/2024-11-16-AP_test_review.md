@@ -43,6 +43,9 @@ For 5.D skills, When I didn't know the question, I chose the longest answer whic
 # 5.E: 
 For 5.E skills, I should've reread the question as some questions were asking for copyright while others were asking about license which have different coorelations with each other. Instead of rushing through the question, i should've reread the question, looked at which answers should be incorrect, and correct it based of off what is expected. (1/4)
 
+# Reflection:
+Reflecting on the AP assignment, it would've been easier if I taken my time and didn't have to rush for ideas because of a volleyball tournament. I feel like some of the questions I taken were pretty simple, however because I rushed it, I didn't get time to walk through the steps on how the code worked and what I could do to solve the solution. To study for this exam, I'll make sure to understand general vocab from the Advance Placement assignment and be able to utilize it for this coming Trimester and the upcoming Trimester as well.
+
 # Overall:
 Overall I believe I was decently strong at understanding problems with code and what the issue was with them in regards to algorithms, booleans, or just number problems. Looking over the problem and actually re-reading them instead of putting an answer to rush it and move on would've made my understanding of the problem a lot more better, and made the other problems easier as it'll pull some concepts from one problem to another. This caused me to struggle a lot especially with the word problems, as they required more thinking and understanding of the topic, which needed to have more time spent on the topic.
 
