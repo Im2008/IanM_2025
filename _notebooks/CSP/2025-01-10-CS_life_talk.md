@@ -13,6 +13,7 @@ Overall, if I improve my creativity and organize my ideas more effectively, I'll
 
 
 ---
+Unrelated extra notes:
 **Organization:**
 
 Best teams are organized with each other: check up with code to code.
