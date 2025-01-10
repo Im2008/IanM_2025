@@ -3,6 +3,16 @@ When I work, I usually am too simple with my projects and essays. As a result, I
 
 Overall, if I improve my creativity and organize my ideas more effectively, I'll be able to have projects that stand out, enhancing my performance at irregular or challenging tasks.
 
+
+
+
+
+
+
+
+
+
+---
 **Organization:**
 
 Best teams are organized with each other: check up with code to code.
