@@ -51,3 +51,5 @@ Colleges focus on your impact on the school.
 Mention projects, accomplishments you're proud of, and goals going further.
 
 Don't oversaturate high school; still maintain grades, but don't stress over colleges.
+
+<img src="/images/za.jpg" alt="People">
