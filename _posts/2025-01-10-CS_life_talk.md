@@ -52,4 +52,4 @@ Mention projects, accomplishments you're proud of, and goals going further.
 
 Don't oversaturate high school; still maintain grades, but don't stress over colleges.
 
-<img src="({{site.baseurl}}/images/za.jpg" alt="People">
+![ccr]({{site.baseurl}}/images/za.jpg)
