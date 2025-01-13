@@ -11,18 +11,10 @@ comments: true
 When I work, I usually am too simple with my projects and essays. As a result, I get average scoring on these projects because I don't attempt to take the risk. My plan after this talk is to not oversaturate about college, but to improve on inventing more creative ideas to stand out more and be able to use these ideas in a way that'll make sense to other people such as a 1st grader.
 
 Overall, if I improve my creativity and organize my ideas more effectively, I'll be able to have projects that stand out, enhancing my performance at irregular or challenging tasks.
-
-
-
-
-
-
-
-
-
-
 ---
 Unrelated extra notes:
+
+
 **Organization:**
 
 Best teams are organized with each other: check up with code to code.
