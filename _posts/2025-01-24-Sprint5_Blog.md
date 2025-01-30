@@ -12,6 +12,75 @@ comments: true
 
 - **Individual Feature**: Timer management and saving/loading drawings.
 
+### Frontend and Backend Correlation
+
+The frontend and backend of the drawing and guessing game interact through various API endpoints. Here’s how they correlate:
+
+1. **Starting the Timer**:
+  - **Frontend**: When the user clicks the "Start Timer" button, the `startTimer` function is called.
+  - **Backend**: The frontend sends a POST request to `/api/start_timer` with the timer duration. The backend starts the timer and responds with a success message.
+
+2. **Timer Status**:
+  - **Frontend**: The timer status is displayed on the page.
+  - **Backend**: The frontend can send a GET request to `/api/timer_status` to fetch the current timer status. The backend responds with the remaining time and whether the timer is active.
+
+3. **Saving Drawings**:
+  - **Frontend**: When the user clicks the "Save Drawing" button, the `saveDrawing` function is called. This function sends the drawing data to the server.
+  - **Backend**: The frontend sends a POST request to `/api/save_drawing` with the Base64-encoded image data. The backend saves the drawing and responds with a success message and filename.
+
+4. **Fetching Saved Drawings**:
+  - **Frontend**: The frontend can request to view saved drawings.
+  - **Backend**: The frontend sends a GET request to `/api/get_drawings`. The backend responds with a list of saved drawings, including filenames, paths, sizes, and last modified times.
+
+5. **Managing Time Entries**:
+  - **Frontend**: The user can add, update, or delete time entries.
+  - **Backend**:
+    - **Add Time**: The frontend sends a POST request to `/api/times` with the time entry data. The backend adds the entry and responds with a success message.
+    - **Update Time**: The frontend sends a PUT request to `/api/times/<int:time_id>` with the updated data. The backend updates the entry and responds with a success message.
+    - **Delete Time**: The frontend sends a DELETE request to `/api/times/<int:time_id>`. The backend deletes the entry and responds with a success message.
+
+### Example Code Snippets
+
+#### Frontend Code to Start Timer
+```javascript
+function startTimer(timeInSeconds) {
+   fetch('/api/start_timer', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ duration: timeInSeconds })
+   })
+   .then(response => response.json())
+   .then(data => {
+      console.log("Timer started:", data);
+      timerDisplay.textContent = `Timer: ${data.duration} seconds left`;
+   })
+   .catch(error => {
+      console.error("Error starting timer:", error);
+   });
+}
+```
+
+#### Frontend Code to Save Drawing
+```javascript
+function saveDrawing() {
+   const canvasData = canvas.toDataURL();
+   fetch('/api/save_drawing', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ canvasData })
+   })
+   .then(response => response.json())
+   .then(data => {
+      console.log("Saved on server:", data);
+      alert('Drawing saved successfully!');
+   })
+   .catch(error => {
+      console.error("Error saving drawing:", error);
+   });
+}
+```
+
+These snippets illustrate how the frontend interacts with the backend to manage the timer and save drawings, ensuring a seamless user experience.
 ### Input/Output Requests
 - **Frontend API Request and Response**: 
   - **Start Timer**: `/api/start_timer` (POST)
