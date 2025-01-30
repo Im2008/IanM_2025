@@ -110,3 +110,80 @@ This segment explains how the additional HTTP methods (PUT and DELETE) are used 
   
 
 This list summarizes how the API meets the requirements by providing endpoints for managing a drawing competition, handling input/output requests, working with lists and dictionaries, and implementing algorithmic code.
+### Explanation of HTTP Methods with Code Snippets
+
+#### GET Method
+The GET method is used to retrieve data from the server. In the provided code, the `timer_status` endpoint uses the GET method to fetch the current status of the timer.
+
+```python
+@competitors_api.route('/api/timer_status', methods=['GET'])
+def timer_status():
+  """API endpoint to get the current timer status.
+  
+  This function handles GET requests to the /api/timer_status endpoint.
+  It returns the current state of the timer in JSON format.
+  """
+  return jsonify(timer_state)
+
+@competitors_api.route('/api/start_timer', methods=['POST'])
+def start_timer():
+  """API endpoint to start the timer.
+  
+  This function handles POST requests to the /api/start_timer endpoint.
+  It expects a JSON payload with a "duration" field specifying the timer duration in seconds.
+  If the duration is valid, it starts a new timer in a separate thread and returns a success message.
+  If the duration is invalid, it returns an error message with a 400 status code.
+  """
+  global timer_state
+  data = request.json
+  duration = data.get("duration")
+
+  if not duration or not isinstance(duration, int) or duration <= 0:
+    return jsonify({"error": "Invalid duration. Please provide a positive integer."}), 400
+
+  timer_state["is_active"] = False
+  thread = threading.Thread(target=timer_thread, args=(duration,))
+  thread.start()
+
+  return jsonify({"message": "Timer started", "duration": duration})
+
+@competitors_api.route('/api/times/<int:time_id>', methods=['PUT'])
+def modify_time(time_id):
+  """API endpoint to update an existing time entry.
+  
+  This function handles PUT requests to the /api/times/<time_id> endpoint.
+  It expects a JSON payload with optional fields to update the time entry.
+  If the time entry is found, it updates the specified fields and commits the changes to the database.
+  If the time entry is not found, it returns an error message with a 404 status code.
+  """
+  time_entry = Time.query.get(time_id)
+  if not time_entry:
+    return jsonify({"error": "Time entry not found"}), 404
+  
+  if request.method == 'PUT':
+    data = request.json
+    time_entry.users_name = data.get('users_name', time_entry.users_name)
+    time_entry.timer = data.get('timer', time_entry.timer)
+    time_entry.amount_drawn = data.get('amount_drawn', time_entry.amount_drawn)
+    db.session.commit()
+    return jsonify({"message": "Time entry updated successfully"})
+
+@competitors_api.route('/api/times/<int:time_id>', methods=['DELETE'])
+def modify_time(time_id):
+  """API endpoint to delete an existing time entry.
+  
+  This function handles DELETE requests to the /api/times/<time_id> endpoint.
+  If the time entry is found, it deletes the entry from the database and commits the changes.
+  If the time entry is not found, it returns an error message with a 404 status code.
+  """
+  time_entry = Time.query.get(time_id)
+  if not time_entry:
+    return jsonify({"error": "Time entry not found"}), 404
+  
+  if request.method == 'DELETE':
+    db.session.delete(time_entry)
+    db.session.commit()
+    return jsonify({"message": "Time entry deleted successfully"})
+```
+
+These code snippets demonstrate how different HTTP methods are used to handle various types of requests in the API.
