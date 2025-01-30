@@ -125,6 +125,7 @@ def timer_status():
   """
   return jsonify(timer_state)
 
+#### POST Method
 @competitors_api.route('/api/start_timer', methods=['POST'])
 def start_timer():
   """API endpoint to start the timer.
@@ -147,6 +148,7 @@ def start_timer():
 
   return jsonify({"message": "Timer started", "duration": duration})
 
+#### PUT Method
 @competitors_api.route('/api/times/<int:time_id>', methods=['PUT'])
 def modify_time(time_id):
   """API endpoint to update an existing time entry.
@@ -168,6 +170,7 @@ def modify_time(time_id):
     db.session.commit()
     return jsonify({"message": "Time entry updated successfully"})
 
+#### DELETE Method
 @competitors_api.route('/api/times/<int:time_id>', methods=['DELETE'])
 def modify_time(time_id):
   """API endpoint to delete an existing time entry.
@@ -185,5 +188,3 @@ def modify_time(time_id):
     db.session.commit()
     return jsonify({"message": "Time entry deleted successfully"})
 ```
-
-These code snippets demonstrate how different HTTP methods are used to handle various types of requests in the API.
