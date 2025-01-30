@@ -8,7 +8,8 @@ comments: true
 ---
 
 ### Purpose of the Program
-- **Group Purpose**: The program, Scribble, manages a drawing competition with a timer, leaderboards, and guessing.
+- **Group Purpose**: The purpose of our group’s program is to create a multiplayer drawing and guessing game inspired by Scribble.io. This program allows players to take turns drawing while others guess the word or phrase being illustrated. The goal is to provide an entertaining and interactive way for people to engage in creative gameplay, fostering collaboration, quick thinking, and creativity.
+
 - **Individual Feature**: Timer management and saving/loading drawings.
 
 ### Input/Output Requests
@@ -69,8 +70,8 @@ comments: true
 - **Postman**: Demonstrate raw API requests and responses with error codes and JSON.
 - **Database Operations**: Use `db_init`, `db_restore`, `db_backup` for data management.
 
-
-### List Requests
+### HTTP Methods and Their Usage
+- **GET**: Used to retrieve data
 - **Lists and Dictionaries**: 
   - Use lists to store drawings and timer states.
   - Use dictionaries to format JSON responses.
@@ -78,23 +79,34 @@ comments: true
 - **Database Queries**: Extract data using SQLAlchemy to get lists of times.
 - **Class Methods**: CRUD operations for managing time entries in the database.
 
+### Additional HTTP Methods and Their Usage
+- **PUT**: Used to update existing data.
+  - **Update Time Entry**: `/api/times/<int:time_id>` (PUT)
+    - **Request**: Updates an existing time entry with new data.
+    - **Response**: Returns a message indicating the time entry has been updated successfully.
+    - **Example Request Body**: `{ "users_name": "Alice", "timer": 60, "amount_drawn": 5 }`
+    - **Example Response**: `{ "message": "Time entry updated successfully" }`
+- **DELETE**: Used to delete existing data.
+  - **Delete Time Entry**: `/api/times/<int:time_id>` (DELETE)
+    - **Request**: Deletes an existing time entry.
+    - **Response**: Returns a message indicating the time entry has been deleted successfully.
+    - **Example Response**: `{ "message": "Time entry deleted successfully" }`
 
-### Algorithmic Code Requests
-- **API Class Methods**: 
-  - GET, POST methods for timer and drawing management.
-  - Methods include sequencing (steps to process requests), selection (error handling), and iteration (timer countdown).
-- **Parameters and Return Types**: 
-  - Parameters: JSON body for POST requests.
-  - Return Type: JSON responses using `jsonify`.
-
+### Updated API Class Methods
+- **PUT and DELETE Methods**: 
+  - **PUT**: Updates existing time entries in the database.
+  - **DELETE**: Removes time entries from the database.
+  - Methods include sequencing (steps to process requests), selection (error handling), and iteration (updating or deleting entries).
 
 ### Call to Algorithm Requests
 - **API Calls**: 
-  - Fetch requests to API endpoints.
+  - Fetch requests to API endpoints for updating and deleting data.
   - Handle responses by updating the DOM or logging errors.
 - **Response Handling**: 
   - Different responses based on normal and error conditions.
-  - Example: Validating duration for the timer and handling invalid input.
+  - Example: Validating input for updating time entries and handling invalid input.
+
+This segment explains how the additional HTTP methods (PUT and DELETE) are used to update and delete time entries, respectively, and how these methods are implemented in the API.
   
 
 This list summarizes how the API meets the requirements by providing endpoints for managing a drawing competition, handling input/output requests, working with lists and dictionaries, and implementing algorithmic code.
