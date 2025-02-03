@@ -7,6 +7,10 @@ toc: true
 comments: true
 ---
 
+Group Purpose: The purpose of our group’s program is to create a multiplayer drawing and guessing game inspired by Scribble.io. This program allows players to take turns drawing while others guess the word or phrase being illustrated. The goal is to provide an entertaining and interactive way for people to engage in creative gameplay, fostering collaboration, quick thinking, and creativity.
+
+Individual Feature: Timer management and saving/loading drawings.
+
 
 ## 1. List Requests, Use of Lists, Dictionaries, and Database
 ## List Requests
