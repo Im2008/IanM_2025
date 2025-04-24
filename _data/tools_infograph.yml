@@ -59,7 +59,7 @@ Topics:
     description: "Safe computing refers to practices and technologies that help protect personal information and ensure secure online interactions. This includes understanding how data is collected, stored, and shared, as well as implementing security measures to safeguard sensitive information."
   - title: "Legal and Ethical Concern"
     image: "/images/logo.png"
-    link: "https://github.com/Im2008/IanM_2025/issues/16"
+    link: "/csp/hw_links"
     alt: "Legal and Ethical Concern"
     keyPoints:
       - "Intellectual Property (IP) laws protect creators' rights over digital content through copyright, patents, and trademarks. Sharing or using code without proper licensing can lead to legal penalties."
@@ -70,7 +70,7 @@ Topics:
     description: "Legal and ethical concerns in computing involve understanding the implications of technology on society, including issues like intellectual property rights, software licensing, and the ethical use of code. Developers must navigate these challenges to ensure responsible and fair practices in their work."
   - title: "Computing Bias"
     image: "/images/logo.png"
-    link: "https://github.com/Im2008/IanM_2025/issues/15"
+    link: "/csp/hw_links"
     alt: "Computing Bias"
     keyPoints:
       - "Definition & Causes: Computing bias happens when algorithms produce unfair outcomes due to biased data, flawed design, or programming errors—often unintentionally reinforcing stereotypes or excluding certain groups."
@@ -81,7 +81,7 @@ Topics:
     description: "Computing bias refers to unfair or prejudiced outcomes produced by computer systems, algorithms, or artificial intelligence. It happens when these systems favor certain groups or disadvantage others, often unintentionally. This bias can come from several sources, including unbalanced or incomplete training data, flawed system design, or the unconscious assumptions of developers. As a result, computing bias can reinforce existing societal inequalities and limit opportunities for underrepresented groups. Recognizing and addressing computing bias is essential to ensure fairness, accuracy, and inclusivity in technology."
   - title: "Digital Divide"
     image: "/images/logo.png"
-    link: "https://github.com/Im2008/IanM_2025/issues/14"
+    link: "/csp/hw_links"
     alt: "Digital Divide"
     keyPoints:
       - "Causes of the Digital Divide: The divide stems from economic inequality, geographic barriers (like rural or border areas), and systemic societal issues such as language and political representation. These lead to uneven access to internet and technology."
@@ -92,7 +92,7 @@ Topics:
     description: "The digital divide refers to the gap between those who have easy access to digital technology and the internet and those who do not. This divide can be due to various factors, including socioeconomic status, geographic location, and education level. The digital divide can lead to significant disparities in opportunities for education, employment, and access to information and services."
   - title: "Beneficial and Harmful Effects"
     image: "/images/logo.png"
-    link: "https://github.com/Im2008/IanM_2025/issues/13"
+    link: "/csp/hw_links"
     alt: "Beneficial and Harmful Effects"
     keyPoints:
       - "Beneficial Effects: Technology advances fields like healthcare (e.g., MRI scans, DNA sequencing), education (e.g., online access to resources), and business (e.g., automation like telephone trees), improving efficiency and providing new opportunities."
