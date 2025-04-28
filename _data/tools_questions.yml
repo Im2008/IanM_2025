@@ -1,6 +1,12 @@
 # Original filepath: /Users/johnmortensen/nighthawk/portfolio_2025/_data/tools_questions.yml
 # New filepath: /Users/im2008/IanM_2025/_data/tools_questions.yml
 questions:
+  - id: "Binary Math"
+    title: "Binary Math"
+    question: "What is binary math, and how is it used in computing?"
+  - id: "Graphs"
+    title: "Graphs"
+    question: "What are graphs, and how are they used in computer science?"
   - id: "Big O HW Blog"
     title: "Big O HW Blog"
     question: "What is Big O Notation, and why is it important?"

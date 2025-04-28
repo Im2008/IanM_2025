@@ -2,7 +2,28 @@
 Title: "Development Foundations"
 Description: "The essentials of development begin by understanding the need for tools and equipment. Illustrated are the core components you’ll need for a smooth entry into coding, collaboration, and project creation."
 Topics:
-  - title: "Big O HW Blog"
+  - title: "Binary Math"
+    image: "/images/logo.png"
+    link: "/csp/binary_math"
+    alt: "Binary Math"
+    keyPoints:
+      - "Binary math is the foundation of computing, using only 0s and 1s to represent data and perform calculations."
+      - "Binary addition follows specific rules: 0+0=0, 0+1=1, 1+0=1, and 1+1=10 (carry the 1)."
+      - "Binary subtraction also has rules: 0-0=0, 1-0=1, and 1-1=0. Borrowing is used when subtracting larger from smaller."
+      - "Binary multiplication is similar to decimal multiplication but uses binary addition for each step."
+    subtitle: "Binary Math"
+    description: "Binary math is the foundation of computing, using only two digits (0 and 1) to represent data and perform calculations. It is essential for understanding how computers process information."
+  - title: "Graphs"
+    image: "/images/logo.png"
+    link: "/csp/graphs"
+    alt: "Graphs"
+    keyPoints:
+      - Graphs model relationships between objects using nodes (vertices) and connections (edges), and can be either directed or undirected.
+      - Complete Graphs have a direct connection between every pair of distinct vertices without loops or multiple edges.
+      - Adjacency Matrices represent graphs as 2D arrays where edges are indicated by `1` and non-edges by `0`.
+      - Adjacency Lists store each node’s neighbors in a list, providing a space-efficient way to represent graphs, especially when they are sparse.
+    subtitle: "Graphs"
+    description: "Graphs are a fundamental data structure used to represent relationships between objects. They consist of nodes (or vertices) connected by edges, which can be directed or undirected. Graphs are widely used in various applications, including social networks, transportation systems, and computer networks."
     image: "/images/logo.png"
     link: "/csp/big_o"
     alt: "Big O BLOG"
